@@ -1,12 +1,13 @@
 # Webhooks Quick Start
 
-{% hint style="info" %}
-**Good to know:** Webhooks are a powerful way to receive real-time updates from Eagle Status. This quick start guide will help you set up and start receiving alerts via webhook in just a few steps.
-{% endhint %}
 
 ## Overview
 
 The Eagle Status webhook sends alerts every 5 minutes, based on the user's configured services. You will receive a JSON payload only if there are changes to report during that time period.
+
+## Setting Up
+
+For the set up you only need to add a valid webhook in the integration section of EagleStatus. Ensure that your server is configured to handle JSON.
 
 ## Webhook Payload
 

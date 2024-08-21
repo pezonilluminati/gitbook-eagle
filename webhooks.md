@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Eagle Status webhook sends alerts every 5 minutes, based on the user's configured services. You will receive a JSON payload only if there are changes to report during that time period.
+The EagleStatus Webhook sends alerts every 5 minutes, based on the user's configured services. You will receive a JSON payload only if there are changes to report during that time period.
 
 ## Setting Up
 
@@ -17,24 +17,24 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
 {
     "checkedAt": "2023-08-21T14:30:00Z",
     "service": {
-      "key": "service_key",
-      "name": "Service Name",
+      "key": "github",
+      "name": "Github",
       "status": "UP", 
-      "url": "Service url",
-      "icon": "Service icon url"
+      "url": "https://eaglestatus.io/services/github",
+      "icon": "https//assets.eaglestatus.io/services/github.png"
     },
     "changedComponents": [
       {
-        "key": "service_key/component_key",
-        "name": "Component Name", 
-        "status": "UP|DOWN|UNDER_MAINTENANCE|DEGRADED_PERFORMANCE|PARTIAL_OUTAGE",
-        "fullName": "Service Name / Component Name"
+        "key": "github/pages",
+        "name": "Pages", 
+        "status": "UP",
+        "fullName": "Github / Pages"
       },
       {
-        "key": "service_key/another_component_key",
-        "name": "Another Component Name",
-        "status": "UP|DOWN|UNDER_MAINTENANCE|DEGRADED_PERFORMANCE|PARTIAL_OUTAGE",
-        "fullName": "Service Name / Another Component Name"
+        "key": "github/actions",
+        "name": "Actions",
+        "status": "DEGRADED_PERFORMANCE",
+        "fullName": "Github / Actions"
       }
     ]
 }

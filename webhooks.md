@@ -7,7 +7,7 @@ The Eagle Status webhook sends alerts every 5 minutes, based on the user's confi
 
 ## Setting Up
 
-For the set up you only need to add a valid webhook in the integration section of EagleStatus. Ensure that your server is configured to handle JSON.
+To get started, simply add a valid webhook in the Integration section of Eagle Status. Ensure that your server is configured to handle JSON payloads.
 
 ## Webhook Payload
 
@@ -46,7 +46,7 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
   - **key:** A unique identifier for the service (e.g., `"service_key"`).
   - **name:** The name of the service (e.g., `"Service Name"`).
   - **status:** The current status of the service (`UP`, `DOWN`, etc.).
-  - **url:** A link to the service's status page on Eagle Status.
+  - **url:** The URL of the service’s status page on Eagle Status.
   - **icon:** A URL to the service's icon.
 - **changedComponents:** An array of components within the service that have experienced a status change:
   - **key:** A unique identifier for the component (e.g., `"service_key/component_key"`).
@@ -54,6 +54,3 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
   - **status:** The new status of the component.
   - **fullName:** A full name that combines the service and component names (e.g., `"Service Name / Component Name"`).
 
-{% hint style="info" %}
-**Good to know:** If no components have changed within the 5-minute interval, the webhook will not send any payload.
-{% endhint %}

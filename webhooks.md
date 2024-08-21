@@ -19,8 +19,8 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
       "key": "service_key",
       "name": "Service Name",
       "status": "UP", 
-      "url": "https://eaglestatus.io/services/service_key",
-      "icon": "https://assets.eaglestatus.io/services/service_key.png"
+      "url": "Service url",
+      "icon": "Service icon url"
     },
     "changedComponents": [
       {

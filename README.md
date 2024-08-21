@@ -1,12 +1,10 @@
-# Welcome!
+# Welcome to Eagle Status Docs
 
-## Welcome to Eagle Status Webhooks
+Welcome to Eagle Status Docs! Here you'll find all the documentation you need to get up and running with the Eagle status developer tools.
 
-Welcome to Eagle Status Webhooks! Here you'll find all the documentation you need to get up and running with the Eagle Status Webhook API.
+## Webhook
 
-## Want to jump right in?
-
-Feeling like an eager beaver? Jump into the quick start docs and get making your first request:
+Do you want to recieve our alerts via webhook? Check it out:
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)

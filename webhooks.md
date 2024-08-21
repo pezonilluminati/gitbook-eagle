@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Eagle Status Webhook sends alerts based on the user's configured services. You will receive a JSON payload only when there are changes to report.
+The EagleStatus Webhook sends alerts based on the user's configured services. You will receive a JSON payload only when there are changes to report.
 
 ## Setting Up
 

@@ -3,7 +3,7 @@
 
 ## Overview
 
-The EagleStatus Webhook sends alerts every 5 minutes, based on the user's configured services. You will receive a JSON payload only if there are changes to report during that time period.
+The Eagle Status Webhook sends alerts based on the user's configured services. You will receive a JSON payload only when there are changes to report.
 
 ## Setting Up
 

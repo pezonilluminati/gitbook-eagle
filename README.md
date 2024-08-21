@@ -1,19 +1,15 @@
 # Welcome to Eagle Status Docs
 
-Welcome to Eagle Status Docs! Here you'll find all the documentation you need to get up and running with the Eagle status developer tools.
+Welcome to Eagle Status Docs! Here you'll find all the documentation you need to get up and running with Eagle Status developer tools.
 
-## Webhook
+## Webhooks
 
-Do you want to recieve our alerts via webhook? Check it out:
+Interested in receiving our alerts via webhook? Get started here:
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
+{% content-ref url="webhook.md" %}
+[webhook.md](webhook.md)
 {% endcontent-ref %}
 
-## Want to deep dive?
+## More to Come
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
-{% endcontent-ref %}
+Stay tuned for more tools and features as we continue to expand our documentation!

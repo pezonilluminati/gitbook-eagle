@@ -38,3 +38,21 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
     ]
 }
 ```
+## Field Descriptions
+
+- **checkedAt:** The ISO 8601 string representing the time when the status check was performed (e.g., `"2023-08-21T14:30:00Z"`).
+- **service:** An object containing details about the service being monitored:
+  - **key:** A unique identifier for the service (e.g., `"service_key"`).
+  - **name:** The name of the service (e.g., `"Service Name"`).
+  - **status:** The current status of the service (`UP`, `DOWN`, etc.).
+  - **url:** A link to the service's status page on Eagle Status.
+  - **icon:** A URL to the service's icon.
+- **changedComponents:** An array of components within the service that have experienced a status change:
+  - **key:** A unique identifier for the component (e.g., `"service_key/component_key"`).
+  - **name:** The name of the component (e.g., `"Component Name"`).
+  - **status:** The new status of the component.
+  - **fullName:** A full name that combines the service and component names (e.g., `"Service Name / Component Name"`).
+
+{% hint style="info" %}
+**Good to know:** If no components have changed within the 5-minute interval, the webhook will not send any payload.
+{% endhint %}

@@ -1,12 +1,12 @@
 # Welcome!
 
-## Welcome to MyAPI
+## Welcome to Eagle Status Webhooks
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+Welcome to Eagle Status Webhooks! Here you'll find all the documentation you need to get up and running with the Eagle Status Webhook API.
 
 ## Want to jump right in?
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+Feeling like an eager beaver? Jump into the quick start docs and get making your first request:
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)

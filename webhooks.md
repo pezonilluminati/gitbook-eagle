@@ -43,14 +43,14 @@ When an alert is triggered, the webhook sends a JSON payload with the following 
 
 - **checkedAt:** The ISO 8601 string representing the time when the status check was performed (e.g., `"2023-08-21T14:30:00Z"`).
 - **service:** An object containing details about the service being monitored:
-  - **key:** A unique identifier for the service (e.g., `"service_key"`).
-  - **name:** The name of the service (e.g., `"Service Name"`).
-  - **status:** The current status of the service (`UP`, `DOWN`, etc.).
+  - **key:** A unique identifier for the service (e.g., `"github"`).
+  - **name:** The name of the service (e.g., `"Github"`).
+  - **status:** The current status of the service (`UP`, `DOWN`,`UNDER_MAINTENANCE`, `DEGRADED_PERFORMANCE`,`PARTIAL_OUTAGE`).
   - **url:** The URL of the service’s status page on Eagle Status.
   - **icon:** A URL to the service's icon.
 - **changedComponents:** An array of components within the service that have experienced a status change:
-  - **key:** A unique identifier for the component (e.g., `"service_key/component_key"`).
-  - **name:** The name of the component (e.g., `"Component Name"`).
+  - **key:** A unique identifier for the component (e.g., `"github/actions"`).
+  - **name:** The name of the component (e.g., `"Actions"`).
   - **status:** The new status of the component.
-  - **fullName:** A full name that combines the service and component names (e.g., `"Service Name / Component Name"`).
+  - **fullName:** A full name that combines the service and component names (e.g., `"Github / Actions"`).
 

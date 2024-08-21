@@ -5,6 +5,6 @@
 
 ## Documentation
 
-* [Webhook](webhook.md)
+* [Webhooks](webhook.md)
 
 

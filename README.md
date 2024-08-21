@@ -1,6 +1,6 @@
-# Welcome to Eagle Status Docs
+# Welcome to EagleStatus Docs
 
-Welcome to Eagle Status Docs! Here you'll find all the documentation you need to get up and running with Eagle Status developer tools.
+Welcome to EagleStatus Docs! Here you'll find all the documentation you need to get up and running with EagleStatus developer tools.
 
 ## Webhooks
 

@@ -6,8 +6,8 @@ Welcome to Eagle Status Docs! Here you'll find all the documentation you need to
 
 Interested in receiving our alerts via webhook? Get started here:
 
-{% content-ref url="webhook.md" %}
-[webhook.md](webhook.md)
+{% content-ref url="webhooks.md" %}
+[webhooks.md](webhooks.md)
 {% endcontent-ref %}
 
 ## More to Come
